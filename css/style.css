@@ -16,10 +16,6 @@ body {
 
 /* Generics */
 
-section {
-    position: relative;
-}
-
 #viewport-red {
     height: 100vh;
     background-color: red;
@@ -58,7 +54,7 @@ section {
     display: inline-block;
     height: 100px;
     width: 250px;
-    position: absolute;
+    position: fixed;
     line-height: 50px;
     top: 10px;
     right: 10px;
