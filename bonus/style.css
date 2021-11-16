@@ -17,10 +17,6 @@ html {
 
 /* Generics */
 
-section {
-    position: relative;
-}
-
 #viewport-red {
     height: 100vh;
     background-color: red;
@@ -64,6 +60,13 @@ section {
     line-height: 50px;
     top: 10px;
     right: 10px;
+}
+
+.list-numbers {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
 }
 
 li {
