@@ -1,0 +1,17 @@
+/* Generics */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utilities */
+
+#viewport-red {
+    height: 100vh;
+    background-color: red;
+}
+
+/* Content */
+
