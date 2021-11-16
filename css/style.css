@@ -13,5 +13,15 @@
     background-color: red;
 }
 
+#viewport-green {
+    height: 100vh;
+    background-color: green;
+}
+
+#viewport-yellow {
+    height: 100vh;
+    background-color: yellow;
+}
+
 /* Content */
 
