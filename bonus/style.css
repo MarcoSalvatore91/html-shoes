@@ -52,13 +52,21 @@ html {
     
 }
 
-.menu {
+ul {
     position: fixed;
-    top: 0;
-    right: 0;
+    top: 20px;
+    right: 20px;
 }
 
 li {
+    display: inline-block;
+    min-height: 20px;
+    min-width: 20px;
+    padding: 0 20px;
+}
+
+a {
+    color: black;
     display: inline-block;
     height: 50px;
     width: 50px;
@@ -66,24 +74,15 @@ li {
     border-radius: 50px;
     line-height: 50px;
     text-align: center;
-    position: relative;
-    top: 30px;
-    right: 20px;
-    margin: 0 10px;
+    text-decoration: none;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
     transform: scale(1);
 }
 
-li:hover {
+a:hover {
     transform: scale(1.2);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   }
-
-a {
-    text-decoration: none;
-    color: black;
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
-}
 
 /* Content */
 
