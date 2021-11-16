@@ -10,11 +10,15 @@ body {
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+/* html {
+    overflow-y: hidden;
+  } */
+
 /* Generics */
 
-/* section {
+section {
     position: relative;
-} */
+}
 
 #viewport-red {
     height: 100vh;
@@ -33,17 +37,9 @@ body {
 
 .content {
     height: 800px;
-    width: 1000px;
+    width: 800px;
     position: relative;
     top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-#sneakers {
-    height: 80%;
-    position: absolute;
-    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -58,7 +54,62 @@ body {
     
 }
 
+.menu {
+    display: inline-block;
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    line-height: 50px;
+    top: 30px;
+    right: 10px;
+}
+
+li {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50px;
+    list-style-type: none;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 /* Content */
+
+#sneakers-blue {
+    height: 80%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#sneakers-white {
+    height: 80%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#sneakers-green {
+    height: 80%;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 .green {
     color: green;
