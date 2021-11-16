@@ -46,31 +46,29 @@ body {
     
 }
 
-.menu {
-    display: inline-block;
-    width: 250px;
+ul {
     position: fixed;
-    line-height: 50px;
     top: 20px;
     right: 20px;
 }
 
 li {
     display: inline-block;
+    min-height: 20px;
+    min-width: 20px;
+    padding: 0 20px;
+}
+
+a {
+    color: black;
+    display: inline-block;
     height: 50px;
     width: 50px;
     background-color: white;
     border-radius: 50px;
-    list-style-type: none;
     line-height: 50px;
     text-align: center;
-    position: relative;
-    margin: 0 10px;
-}
-
-a {
     text-decoration: none;
-    color: black;
 }
 
 /* Content */
