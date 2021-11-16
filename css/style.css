@@ -10,10 +10,6 @@ body {
     font-family: 'Rubik Mono One', sans-serif;
 }
 
-/* html {
-    overflow-y: hidden;
-  } */
-
 /* Generics */
 
 #viewport-red {
@@ -52,12 +48,11 @@ body {
 
 .menu {
     display: inline-block;
-    height: 100px;
     width: 250px;
     position: fixed;
     line-height: 50px;
-    top: 10px;
-    right: 10px;
+    top: 20px;
+    right: 20px;
 }
 
 li {
@@ -70,9 +65,6 @@ li {
     line-height: 50px;
     text-align: center;
     position: relative;
-    top: 50%;
-    left: 15%;
-    transform: translate(-50%, -50%);
     margin: 0 10px;
 }
 
