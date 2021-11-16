@@ -1,4 +1,4 @@
-/* Generics */
+/* utilities */
 
 * {
     margin: 0;
@@ -6,7 +6,11 @@
     box-sizing: border-box;
 }
 
-/* Utilities */
+/* Generics */
+
+/* section {
+    position: relative;
+} */
 
 #viewport-red {
     height: 100vh;
@@ -21,6 +25,24 @@
 #viewport-yellow {
     height: 100vh;
     background-color: yellow;
+}
+
+.content {
+    height: 500px;
+    width: 1000px;
+    background-color: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#sneakers {
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* Content */
